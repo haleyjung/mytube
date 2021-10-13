@@ -7,13 +7,19 @@
 
 &nbsp;
 
-/users/edit -> Edit user <br>
-/users/delete -> Delete user <br>
+/users/:id -> See User <br>
+/users/logout -> Logout <br>
+/users/edit -> Edit My Profile <br>
+/users/delete -> Delete(remove) My Profile <br>
 
 &nbsp;
 
-/videos/watch -> Watch Video <br>
-/videos/edit -> Edit Video <br>
-/videos/delete -> Delete Video <br>
+/videos/:id -> See Video <br>
+/videos/:id/edit -> Edit Video <br>
+/videos/:id/delete -> Delete Video <br>
+/videos/upload -> Upload Video <br>
+
+&nbsp;
+
 /videos/comments -> Comment on a video <br>
 /videos/comments/delete -> Delete comment <br>
