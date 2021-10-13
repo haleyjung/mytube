@@ -1,0 +1,27 @@
+{
+  "name": "mytube",
+  "version": "1.0.0",
+  "description": "Platform to watch and share videos you like",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haleyjung/mytube.git"
+  },
+  "author": "HJung",
+  "bugs": {
+    "url": "https://github.com/haleyjung/mytube/issues"
+  },
+  "homepage": "https://github.com/haleyjung/mytube#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.13"
+  }
+}
