@@ -1,6 +1,6 @@
 import express from "express";
 
-const videoRouter = express.Router;
+const videoRouter = express.Router();
 
 const handleWatch = (req, res) => res.send("Watch");
 
