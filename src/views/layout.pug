@@ -4,13 +4,8 @@ html(lang = "en")
         title #{pageTitle} | MyTube
         link(rel="stylesheet" href="https://unpkg.com/mvp.css")
     body 
-        header  
-            nav     
-                ul 
-                    li 
-                    a(href="/login") Login
-                    li
+        header
             h1=pageTitle
         main
             block content
-    include partials/footer.pug
+    include partials/footer
