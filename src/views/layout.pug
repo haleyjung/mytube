@@ -1,0 +1,16 @@
+doctype html 
+html(lang = "en")
+    head   
+        title #{pageTitle} | MyTube
+        link(rel="stylesheet" href="https://unpkg.com/mvp.css")
+    body 
+        header  
+            nav     
+                ul 
+                    li 
+                    a(href="/login") Login
+                    li
+            h1=pageTitle
+        main
+            block content
+    include partials/footer.pug
